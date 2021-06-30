@@ -30,8 +30,8 @@ F 9 "ADA4817-1ARDZ" H 2950 3500 50  0001 L CNN "Manufacturer_Part_Number"
 	1    2100 4100
 	1    0    0    -1  
 $EndComp
-Text Notes 500  800  0    50   ~ 0
-TO-DO\n1. Power Supply (Switcher)\n2. Dual Gang Pot Footprint\n3. Decooupling @ Op-Amp
+Text Notes 500  750  0    50   ~ 0
+TO-DO\n1. Dual Gang Pot Footprint\n2. Shop for passives\n
 $Comp
 L Device:Q_NPN_BCE Q?
 U 1 1 60DD3B28
