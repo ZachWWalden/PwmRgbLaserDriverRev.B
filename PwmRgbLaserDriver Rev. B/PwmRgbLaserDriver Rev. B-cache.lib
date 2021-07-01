@@ -160,11 +160,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_ADA4817-1ARDZ
+# PwmRgbLaserDriver-Rev.-B-rescue_ADA4817-1ARDZ-SamacSys_Parts
 #
-DEF SamacSys_Parts_ADA4817-1ARDZ IC 0 30 Y Y 1 F N
+DEF PwmRgbLaserDriver-Rev.-B-rescue_ADA4817-1ARDZ-SamacSys_Parts IC 0 30 Y Y 1 F N
 F0 "IC" 850 300 50 H V L CNN
-F1 "SamacSys_Parts_ADA4817-1ARDZ" 850 200 50 H V L CNN
+F1 "PwmRgbLaserDriver-Rev.-B-rescue_ADA4817-1ARDZ-SamacSys_Parts" 850 200 50 H V L CNN
 F2 "SOIC127P600X175-9N" 850 100 50 H I L CNN
 F3 "" 850 0 50 H I L CNN
 F4 "Op Amp Low Noise 1GHz FastFET 8SOIC-EP Analog Devices ADA4817-1ARDZ High Speed Op Amp, 410MHz Rail-Rail, 5  10 V, 8-Pin SOIC" 850 -100 50 H I L CNN "Description"
@@ -187,11 +187,11 @@ X EP 9 500 -800 200 U 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_TPS54331GDR
+# PwmRgbLaserDriver-Rev.-B-rescue_TPS54331GDR-SamacSys_Parts
 #
-DEF SamacSys_Parts_TPS54331GDR U 0 40 Y Y 1 F N
+DEF PwmRgbLaserDriver-Rev.-B-rescue_TPS54331GDR-SamacSys_Parts U 0 40 Y Y 1 F N
 F0 "U" -750 -150 50 H V C CNN
-F1 "SamacSys_Parts_TPS54331GDR" -750 -50 50 H V C CNN
+F1 "PwmRgbLaserDriver-Rev.-B-rescue_TPS54331GDR-SamacSys_Parts" -750 -50 50 H V C CNN
 F2 "" -750 -150 50 H I C CNN
 F3 "" -750 -150 50 H I C CNN
 DRAW

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SamacSys_Parts:ADA4817-1ARDZ IC?
+L PwmRgbLaserDriver-Rev.-B-rescue:ADA4817-1ARDZ-SamacSys_Parts IC?
 U 1 1 60DCA498
 P 2100 4100
 F 0 "IC?" H 2600 4365 50  0000 C CNN
@@ -30,8 +30,8 @@ F 9 "ADA4817-1ARDZ" H 2950 3500 50  0001 L CNN "Manufacturer_Part_Number"
 	1    2100 4100
 	1    0    0    -1  
 $EndComp
-Text Notes 500  750  0    50   ~ 0
-TO-DO\n1. Dual Gang Pot Footprint\n2. Shop for passives\n
+Text Notes 500  800  0    50   ~ 0
+TO-DO\n1. Dual Gang Pot Footprint\n2. Shop for passives\n3. Mounting Holes\n
 $Comp
 L Device:Q_NPN_BCE Q?
 U 1 1 60DD3B28
@@ -327,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 4100 2000 4050
 $Comp
-L SamacSys_Parts:ADA4817-1ARDZ IC?
+L PwmRgbLaserDriver-Rev.-B-rescue:ADA4817-1ARDZ-SamacSys_Parts IC?
 U 1 1 60E617A8
 P 5950 4100
 F 0 "IC?" H 6450 4365 50  0000 C CNN
@@ -596,7 +596,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 4100 5850 4050
 $Comp
-L SamacSys_Parts:ADA4817-1ARDZ IC?
+L PwmRgbLaserDriver-Rev.-B-rescue:ADA4817-1ARDZ-SamacSys_Parts IC?
 U 1 1 60E84C66
 P 9800 4100
 F 0 "IC?" H 10300 4365 50  0000 C CNN
@@ -863,7 +863,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 4100 9700 4050
 $Comp
-L SamacSys_Parts:TPS54331GDR U?
+L PwmRgbLaserDriver-Rev.-B-rescue:TPS54331GDR-SamacSys_Parts U?
 U 1 1 60EA0AF4
 P 2850 1700
 F 0 "U?" H 2100 1675 50  0000 C CNN
@@ -1369,4 +1369,6 @@ Wire Wire Line
 	1300 2450 1300 2300
 Text Notes 1950 650  0    50   ~ 0
 Board Size:\n63 mm X 42 mm
+Text GLabel 3900 2400 0    50   Input ~ 0
+VSENSE
 $EndSCHEMATC
