@@ -44,24 +44,24 @@ $EndComp
 $Comp
 L Device:R_POT_Dual_Separate RV1
 U 1 1 60DDA5AF
-P 2250 2350
-F 0 "RV1" V 2043 2350 50  0000 C CNN
-F 1 "1k" V 2134 2350 50  0000 C CNN
-F 2 "SamacSys_Parts:DualGangPotAmazon" H 2250 2350 50  0001 C CNN
-F 3 "~" H 2250 2350 50  0001 C CNN
-	1    2250 2350
-	0    -1   -1   0   
+P 2250 4100
+F 0 "RV1" V 2043 4100 50  0000 C CNN
+F 1 "1k" V 2134 4100 50  0000 C CNN
+F 2 "SamacSys_Parts:DualGangPotAmazon" H 2250 4100 50  0001 C CNN
+F 3 "~" H 2250 4100 50  0001 C CNN
+	1    2250 4100
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_POT_Dual_Separate RV1
 U 2 1 60DDB4D9
-P 2250 4100
-F 0 "RV1" V 2135 4100 50  0000 C CNN
-F 1 "1k" V 2044 4100 50  0000 C CNN
-F 2 "SamacSys_Parts:DualGangPotAmazon" H 2250 4100 50  0001 C CNN
-F 3 "~" H 2250 4100 50  0001 C CNN
-	2    2250 4100
-	0    1    1    0   
+P 2250 2350
+F 0 "RV1" V 2135 2350 50  0000 C CNN
+F 1 "1k" V 2044 2350 50  0000 C CNN
+F 2 "SamacSys_Parts:DualGangPotAmazon" H 2250 2350 50  0001 C CNN
+F 3 "~" H 2250 2350 50  0001 C CNN
+	2    2250 2350
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small R6
@@ -187,7 +187,6 @@ Wire Wire Line
 	900  3250 900  3350
 Wire Wire Line
 	2100 2350 1750 2350
-Connection ~ 2100 2350
 Connection ~ 1750 3050
 Wire Wire Line
 	2400 2350 4200 2350
@@ -215,7 +214,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 4100 2100 4100
 Connection ~ 1750 3350
-Connection ~ 2100 4100
 Wire Wire Line
 	2400 4100 3200 4100
 Wire Wire Line
@@ -311,24 +309,24 @@ $EndComp
 $Comp
 L Device:R_POT_Dual_Separate RV2
 U 1 1 60E617B4
-P 6100 2350
-F 0 "RV2" V 5893 2350 50  0000 C CNN
-F 1 "1k" V 5984 2350 50  0000 C CNN
-F 2 "SamacSys_Parts:DualGangPotAmazon" H 6100 2350 50  0001 C CNN
-F 3 "~" H 6100 2350 50  0001 C CNN
-	1    6100 2350
-	0    -1   -1   0   
+P 6100 4100
+F 0 "RV2" V 5893 4100 50  0000 C CNN
+F 1 "1k" V 5984 4100 50  0000 C CNN
+F 2 "SamacSys_Parts:DualGangPotAmazon" H 6100 4100 50  0001 C CNN
+F 3 "~" H 6100 4100 50  0001 C CNN
+	1    6100 4100
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_POT_Dual_Separate RV2
 U 2 1 60E617BA
-P 6100 4100
-F 0 "RV2" V 5985 4100 50  0000 C CNN
-F 1 "1k" V 5894 4100 50  0000 C CNN
-F 2 "SamacSys_Parts:DualGangPotAmazon" H 6100 4100 50  0001 C CNN
-F 3 "~" H 6100 4100 50  0001 C CNN
-	2    6100 4100
-	0    1    1    0   
+P 6100 2350
+F 0 "RV2" V 5985 2350 50  0000 C CNN
+F 1 "1k" V 5894 2350 50  0000 C CNN
+F 2 "SamacSys_Parts:DualGangPotAmazon" H 6100 2350 50  0001 C CNN
+F 3 "~" H 6100 2350 50  0001 C CNN
+	2    6100 2350
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small R11
@@ -456,7 +454,6 @@ Wire Wire Line
 	4750 3250 4750 3350
 Wire Wire Line
 	5950 2350 5600 2350
-Connection ~ 5950 2350
 Connection ~ 5600 3050
 Wire Wire Line
 	6250 2350 8050 2350
@@ -484,7 +481,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 4100 5950 4100
 Connection ~ 5600 3350
-Connection ~ 5950 4100
 Wire Wire Line
 	6250 4100 7050 4100
 Wire Wire Line
@@ -580,24 +576,24 @@ $EndComp
 $Comp
 L Device:R_POT_Dual_Separate RV3
 U 1 1 60E84C72
-P 9950 2350
-F 0 "RV3" V 9743 2350 50  0000 C CNN
-F 1 "1k" V 9834 2350 50  0000 C CNN
-F 2 "SamacSys_Parts:DualGangPotAmazon" H 9950 2350 50  0001 C CNN
-F 3 "~" H 9950 2350 50  0001 C CNN
-	1    9950 2350
-	0    -1   -1   0   
+P 9950 4100
+F 0 "RV3" V 9743 4100 50  0000 C CNN
+F 1 "1k" V 9834 4100 50  0000 C CNN
+F 2 "SamacSys_Parts:DualGangPotAmazon" H 9950 4100 50  0001 C CNN
+F 3 "~" H 9950 4100 50  0001 C CNN
+	1    9950 4100
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_POT_Dual_Separate RV3
 U 2 1 60E84C78
-P 9950 4100
-F 0 "RV3" V 9835 4100 50  0000 C CNN
-F 1 "1k" V 9744 4100 50  0000 C CNN
-F 2 "SamacSys_Parts:DualGangPotAmazon" H 9950 4100 50  0001 C CNN
-F 3 "~" H 9950 4100 50  0001 C CNN
-	2    9950 4100
-	0    1    1    0   
+P 9950 2350
+F 0 "RV3" V 9835 2350 50  0000 C CNN
+F 1 "1k" V 9744 2350 50  0000 C CNN
+F 2 "SamacSys_Parts:DualGangPotAmazon" H 9950 2350 50  0001 C CNN
+F 3 "~" H 9950 2350 50  0001 C CNN
+	2    9950 2350
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small R14
@@ -661,8 +657,6 @@ $EndComp
 Wire Wire Line
 	9700 3350 9700 3850
 Wire Wire Line
-	9700 3850 10200 3850
-Wire Wire Line
 	9800 2350 9800 2200
 $Comp
 L Device:C_Small C17
@@ -723,7 +717,6 @@ Wire Wire Line
 	8600 3250 8600 3350
 Wire Wire Line
 	9800 2350 9450 2350
-Connection ~ 9800 2350
 Connection ~ 9450 3050
 Wire Wire Line
 	10100 2350 11900 2350
@@ -751,7 +744,6 @@ Wire Wire Line
 Wire Wire Line
 	9450 4100 9800 4100
 Connection ~ 9450 3350
-Connection ~ 9800 4100
 Wire Wire Line
 	10100 4100 10900 4100
 Wire Wire Line
@@ -1326,75 +1318,43 @@ Wire Notes Line
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 60F218DC
-P 5600 1100
-F 0 "H1" H 5700 1149 50  0000 L CNN
-F 1 "GND" H 5700 1058 50  0000 L CNN
-F 2 "SamacSys_Parts:4mm Mounting Hole" H 5600 1100 50  0001 C CNN
-F 3 "~" H 5600 1100 50  0001 C CNN
-	1    5600 1100
+P 5900 1100
+F 0 "H1" H 6000 1149 50  0000 L CNN
+F 1 "GND" H 6000 1058 50  0000 L CNN
+F 2 "SamacSys_Parts:4mm Mounting Hole" H 5900 1100 50  0001 C CNN
+F 3 "~" H 5900 1100 50  0001 C CNN
+	1    5900 1100
 	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 60F221AD
-P 6500 1100
-F 0 "H3" H 6600 1149 50  0000 L CNN
-F 1 "GND" H 6600 1058 50  0000 L CNN
-F 2 "SamacSys_Parts:4mm Mounting Hole" H 6500 1100 50  0001 C CNN
-F 3 "~" H 6500 1100 50  0001 C CNN
-	1    6500 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 60F2CC53
-P 6500 1450
-F 0 "H4" H 6400 1407 50  0000 R CNN
-F 1 "GND" H 6400 1498 50  0000 R CNN
-F 2 "SamacSys_Parts:4mm Mounting Hole" H 6500 1450 50  0001 C CNN
-F 3 "~" H 6500 1450 50  0001 C CNN
-	1    6500 1450
-	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 60F37841
-P 5600 1450
-F 0 "H2" H 5500 1407 50  0000 R CNN
-F 1 "GND" H 5500 1498 50  0000 R CNN
-F 2 "SamacSys_Parts:4mm Mounting Hole" H 5600 1450 50  0001 C CNN
-F 3 "~" H 5600 1450 50  0001 C CNN
-	1    5600 1450
+P 5900 1450
+F 0 "H2" H 5800 1407 50  0000 R CNN
+F 1 "GND" H 5800 1498 50  0000 R CNN
+F 2 "SamacSys_Parts:4mm Mounting Hole" H 5900 1450 50  0001 C CNN
+F 3 "~" H 5900 1450 50  0001 C CNN
+	1    5900 1450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5600 1200 5600 1350
-Wire Wire Line
-	6500 1350 6050 1350
-Connection ~ 5600 1350
-Wire Wire Line
-	5600 1200 6500 1200
-Connection ~ 5600 1200
-Wire Wire Line
-	6500 1200 6500 1350
-Connection ~ 6500 1200
-Connection ~ 6500 1350
+	5900 1200 5900 1350
+Connection ~ 5900 1350
 $Comp
 L power:GND #PWR0122
 U 1 1 60F81A6B
-P 6050 1450
-F 0 "#PWR0122" H 6050 1200 50  0001 C CNN
-F 1 "GND" H 6055 1277 50  0000 C CNN
-F 2 "" H 6050 1450 50  0001 C CNN
-F 3 "" H 6050 1450 50  0001 C CNN
-	1    6050 1450
+P 6350 1450
+F 0 "#PWR0122" H 6350 1200 50  0001 C CNN
+F 1 "GND" H 6355 1277 50  0000 C CNN
+F 2 "" H 6350 1450 50  0001 C CNN
+F 3 "" H 6350 1450 50  0001 C CNN
+	1    6350 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 1450 6050 1350
-Connection ~ 6050 1350
+	6350 1450 6350 1350
 Wire Wire Line
-	6050 1350 5600 1350
+	6350 1350 5900 1350
 Wire Notes Line
 	5100 500  7150 500 
 Wire Notes Line
@@ -1462,10 +1422,10 @@ Wire Wire Line
 Text GLabel 3300 1450 2    50   Input ~ 0
 COMP_1
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0123
 U 1 1 60F58E09
 P 9800 3850
-F 0 "#PWR?" H 9800 3600 50  0001 C CNN
+F 0 "#PWR0123" H 9800 3600 50  0001 C CNN
 F 1 "GND" H 9805 3677 50  0000 C CNN
 F 2 "" H 9800 3850 50  0001 C CNN
 F 3 "" H 9800 3850 50  0001 C CNN
@@ -1473,10 +1433,10 @@ F 3 "" H 9800 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 60F64D0D
 P 5950 3850
-F 0 "#PWR?" H 5950 3600 50  0001 C CNN
+F 0 "#PWR0124" H 5950 3600 50  0001 C CNN
 F 1 "GND" H 5955 3677 50  0000 C CNN
 F 2 "" H 5950 3850 50  0001 C CNN
 F 3 "" H 5950 3850 50  0001 C CNN
@@ -1487,10 +1447,10 @@ Connection ~ 5950 3850
 Wire Wire Line
 	5950 3850 6350 3850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 60F66A16
 P 2100 3850
-F 0 "#PWR?" H 2100 3600 50  0001 C CNN
+F 0 "#PWR0125" H 2100 3600 50  0001 C CNN
 F 1 "GND" H 2105 3677 50  0000 C CNN
 F 2 "" H 2100 3850 50  0001 C CNN
 F 3 "" H 2100 3850 50  0001 C CNN
@@ -1500,4 +1460,51 @@ $EndComp
 Connection ~ 2100 3850
 Wire Wire Line
 	2100 3850 2500 3850
+Wire Wire Line
+	6350 1350 6350 1200
+Wire Wire Line
+	6350 1200 5900 1200
+Connection ~ 6350 1350
+Connection ~ 5900 1200
+Text GLabel 1000 3350 3    50   Input ~ 0
+RIN
+Text GLabel 1750 3600 0    50   Input ~ 0
+ROA+IN
+Text GLabel 1750 2650 0    50   Input ~ 0
+ROA-IN
+Text GLabel 3450 3800 3    50   Input ~ 0
+RLO
+Text GLabel 7300 3800 3    50   Input ~ 0
+GLO
+Text GLabel 5600 3650 0    50   Input ~ 0
+GOA+IN
+Text GLabel 5600 2700 0    50   Input ~ 0
+GOA-IN
+Text GLabel 4950 3350 3    50   Input ~ 0
+GIN
+Text GLabel 9450 3650 0    50   Input ~ 0
+BOA+IN
+Text GLabel 8800 3350 3    50   Input ~ 0
+BIN
+Text GLabel 9450 2700 0    50   Input ~ 0
+BOA-IN
+Text GLabel 11150 3800 3    50   Input ~ 0
+BLO
+Wire Wire Line
+	9700 3850 9800 3850
+Wire Wire Line
+	9800 3850 10200 3850
+Connection ~ 9800 3850
+Connection ~ 2100 2350
+Connection ~ 2100 4100
+Connection ~ 5950 2350
+Connection ~ 5950 4100
+Connection ~ 9800 2350
+Connection ~ 9800 4100
+Text GLabel 3650 3500 0    50   Input ~ 0
+RQO
+Text GLabel 7500 3500 0    50   Input ~ 0
+GQO
+Text GLabel 11350 3500 0    50   Input ~ 0
+BQO
 $EndSCHEMATC
